@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    margin: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 1.5rem;
+  }
+  
+  nav img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1 {
+    font-weight: bold;
+  }
+  
+  .cont-section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-family: Raleway;
+    font-weight: 400;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .furm {
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .cont-section1 img {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .cont-section1 input {
+    padding: 7px 10px;
+    border-radius: 3px;
+    border: 1px solid hsl(0, 0%, 75%);
+    margin-right: 15px;
+    
+  }
+  
+  .cont-section1 input::placeholder {
+    color: hsl(0, 0%, 75%);
+  }
+  
+  .cont-section1 button {
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    border: 0;
+    padding: 9px 45px;
+    border-radius: 5px;
+    
+  }
+  
+  .cont-section2 {
+    background-image: url("images/bg-curve-desktop.svg");
+    margin-top: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  
+  .cont-section2 div {
+    margin: 0 3%;
+    width: 100%;
+  }
+  
+  .illust2{
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .cont-section2 a img {
+    max-width: 100%;
+  }
+  
+  .fylo {
+    color: hsl(170, 45%, 43%);
+  }
+  
+  .article2 {
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px grey;
+  }
+  
+  .founder{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    padding: 0;
+  }
+  
+  .founder img {
+    border-radius: 50%;
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+  span {
+    color: hsl(238, 22%, 44%);
+  }
+  
+  .cont-section3 {
+    background-color: rgba(88, 89, 137, 1);
+    padding: 3rem 0;
+    margin: auto;
+    color: #fff;
+  }
+  
+  .cont-section3 div {
+  margin: 0 20%;
+  }
+  
+  .cont-section3 form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 5px;
+  }
+  
+  .section3 form button {
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    border: 0;
+    padding: 7px 20px;
+    border-radius: 3px;
+    margin-top: 5px;
+  }
+  
+  footer {
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+    padding: 3rem;
+  }
+  
+  .logo {
+    filter: brightness(0) invert(1);
+  }
+  
+  footer div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer li {
+    margin-top: 10px;
+    list-style: none;
+  }
+  
+  .img {
+    display: flex;
+  }
+  
+  footer li img {
+    margin-right: 10px;
+    filter: brightness(0) invert(1);
+    height: 20px;
+  }
+  
+  @media screen and (max-width: 375px) {
+    body {
+      width: 100%;
+    }
+    
+    header {
+      margin-top: 15px;
+      font-size: 1rem;
+    }
+    
+    nav img {
+      width: 60px;
+    }
+  
+    .cont-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .cont-section1 h1 {
+      font-weight: bold;
+      font-size: 3rem;
+      margin: 15px 0;
+    }
+    
+    .cont-section1 {
+      flex-direction: column-reverse;
+      margin: 10px ;
+      text-align: center;
+    }
+    
+      .cont-section1 input {
+        margin: 10px 0;
+        width: 240px;
+      }
+      
+          .cont-section1 button{
+            width: 260px;
+          }
+  
+    .cont-section2 {
+      background-image: url("images/bg-curve-mobile.svg");
+      flex-direction: column-reverse;
+  }
+  
+    .cont-section2 h1 {
+      text-align: center; 
+      font-size: 16px;
+      font-weight: bold;
+      margin:20px 0;
+      }
+      
+  .cont-section2 p {
+    margin: 30px 10px;
+  }
+  
+  .article2 {
+    width: 300px;
+    margin:40px auto;
+  }
+  
+  .article2 p {
+    text-align: left;
+  }
+  
+  .cont-section3 h2,p {
+    text-align: center;
+    margin-bottom: 30px;
+
+  }
+  
+  .cont-section3 form input{
+    margin-top: 15px;
+    width: 190px;
+  }
+  
+  .cont-section3 form button {
+    width: 200px;
+  }
+  
+  footer div {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    footer ul {
+      margin-top: 30px;
+    }
+    
+    .img {
+      justify-content: center
+    }
+  }
